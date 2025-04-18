@@ -1,5 +1,3 @@
-# README.md
-
 # Inspector Web Manual
 
 **Guía completa del Inspector de Elementos en la Web**
