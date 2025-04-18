@@ -1,41 +1,129 @@
-# Website
+# README.md
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# Inspector Web Manual
 
-### Installation
+**Guía completa del Inspector de Elementos en la Web**
+
+> Este repositorio contiene un sitio de documentación estático generado con [Docusaurus](https://docusaurus.io), orientado a describir el uso avanzado del Inspector de Elementos de navegador (Chrome DevTools).
+
+---
+
+## 📖 Contenido
+
+1. [Descripción](#descripción)
+2. [Requisitos](#requisitos)
+3. [Instalación](#instalación)
+4. [Desarrollo local](#desarrollo-local)
+5. [Compilación (Build)](#compilación-build)
+6. [Despliegue](#despliegue)
+7. [Estructura del proyecto](#estructura-del-proyecto)
+8. [Contribuciones](#contribuciones)
+9. [Licencia](#licencia)
+
+---
+
+## Descripción
+
+Este proyecto ofrece un **manual detallado** organizado en 14 secciones sobre las herramientas de desarrollo integradas en el navegador, tales como:
+
+- Panel **Elements** (estructura del DOM, edición en vivo)
+- Panel **Styles** y **Computed** (reglas CSS, box model)
+- Panel **Layout** (Grid, Flexbox)
+- Breakpoints, Device Mode, Accessibility, Snippets, y más.
+
+La documentación está escrita en **Markdown** y sirve tanto para medida de aprendizaje como referencia profesional.
+
+---
+
+## Requisitos
+
+- **Node.js** >= 18.0
+- **npm** o **Yarn**
+
+---
+
+## Instalación
+
+Clona el repositorio y instala dependencias:
+
+```bash
+# Usando npm
+git clone https://github.com/LavenderEdit/inspector-web-docs.git
+cd inspector-web-docs
+npm install
+
+# Usando Yarn
+# yarn
+yarn install
+```
+
+---
+
+## Desarrollo local
+
+Para iniciar un servidor local y visualizar cambios en caliente:
+
+```bash
+# npm
+npm run start
+
+# Yarn
+yarn start
+```
+
+El sitio estará disponible en `http://localhost:3000/triggersaurus/` (según la configuración de `baseUrl`).
+
+---
+
+## Compilación (Build)
+
+Genera la versión estática optimizada en la carpeta `build/`:
+
+```bash
+# npm
+npm run build
+
+# Yarn
+yarn build
+```
+
+---
+
+## Despliegue
+
+- **GitHub Pages**: `npm run deploy` o `yarn deploy` (configurado para rama `gh-pages`).
+- **cPanel / FTP**: Subir contenido de `build/` a `public_html/docusaurus/` (o carpeta deseada).
+
+---
+
+## Estructura del proyecto
 
 ```
-$ yarn
+inspector-web-docs/
+├── blog/                 # Opcional (deshabilitado)
+├── docs/                 # Archivos Markdown de documentación
+├── src/
+│   ├── css/custom.css    # Estilos globales (iconos, paleta)
+│   └── pages/            # Páginas personalizadas
+├── static/img/           # Imágenes y favicons
+├── docusaurus.config.js  # Configuración principal
+├── sidebars.js           # Estructura de la barra lateral
+├── package.json          # Dependencias y scripts
+└── build/                # Generado tras `npm run build`
 ```
 
-### Local Development
+---
 
-```
-$ yarn start
-```
+## Contribuciones
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+¡Se aceptan pull requests y sugerencias! Por favor, abre un issue con tu propuesta y sigue las buenas prácticas de documentación.
 
-### Build
+---
 
-```
-$ yarn build
-```
+## Licencia
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE.txt) para más detalles.
 
-### Deployment
+---
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+_Desarrollado con ❤️ por Juan Santos Pimentel Lalangui._
