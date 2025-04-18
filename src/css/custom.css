@@ -1,0 +1,165 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Custom Infima variables: nueva paleta Deep Purple / Orange */
+
+/* LIGHT MODE */
+:root {
+  --ifm-color-primary: #4A148C;
+  --ifm-color-primary-dark: #38006B;
+  --ifm-color-primary-darker: #2A0050;
+  --ifm-color-primary-darkest: #1F003A;
+  --ifm-color-primary-light: #6A1B9A;
+  --ifm-color-primary-lighter: #7C43BD;
+  --ifm-color-primary-lightest: #9C64D3;
+  --ifm-color-secondary: #FF6F00;
+  --ifm-color-secondary-dark: #E65C00;
+  --ifm-color-secondary-light: #FF8F33;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(74, 20, 140, 0.1);
+}
+
+/* DARK MODE */
+[data-theme='dark'] {
+  --ifm-color-primary: #D05CE3;
+  --ifm-color-primary-dark: #B347D1;
+  --ifm-color-primary-darker: #A02ABB;
+  --ifm-color-primary-darkest: #88229F;
+  --ifm-color-primary-light: #E288EE;
+  --ifm-color-primary-lighter: #EEB0F2;
+  --ifm-color-primary-lightest: #F5D9F9;
+  --ifm-color-secondary: #FFC46A;
+  --ifm-color-secondary-dark: #E6AC5D;
+  --ifm-color-secondary-light: #FFD484;
+  --docusaurus-highlighted-code-line-bg: rgba(208, 92, 227, 0.2);
+}
+
+/* 1. Introducción */
+.sidebar-cat-intro>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f05a";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+
+/* 2. Cómo Abrir DevTools */
+.sidebar-cat-abrir>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0c1";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 3. Panel Elements */
+.sidebar-cat-elements>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f1e5";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 4. Edición de HTML */
+.sidebar-cat-edicion>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f044";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 5. Panel Styles */
+.sidebar-cat-styles>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f53a";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 6. Computed & Box Model */
+.sidebar-cat-boxmodel>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f2b9";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 7. Panel Layout */
+.sidebar-cat-layout>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0cb";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 8. Event Listeners */
+.sidebar-cat-events>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f09e";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 9. Breakpoints */
+.sidebar-cat-breakpoints>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f04d";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 10. Responsive Mode */
+.sidebar-cat-responsive>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f3cd";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 11. Búsquedas & Snippets */
+.sidebar-cat-search>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f002";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 12. Accesibilidad */
+.sidebar-cat-accessibility>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f29a";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 13. Capturas & Workspaces */
+.sidebar-cat-capturas>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f03e";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 14. Buenas Prácticas */
+.sidebar-cat-bestpractices>.menu__list-item-collapsible>a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0eb";
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
