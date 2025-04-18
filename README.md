@@ -94,6 +94,12 @@ yarn build
 
 ---
 
+## Link de Ejecución en Producción
+- **Github Pages**: [Triggersaurus](https://lavenderedit.github.io/inspector-web-docs/).
+- **CPanel**: [Docusaurus](https://993718514.facturalo.co/docusaurus/).
+
+---
+
 ## Estructura del proyecto
 
 ```
