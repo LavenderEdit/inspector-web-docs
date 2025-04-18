@@ -6,15 +6,16 @@ const config = {
   title: 'Manual Inspector Web',
   tagline: 'Guía completa del Inspector de Elementos en la Web',
   favicon: 'img/favicon.ico',
+
   /*
-    // URL donde se desplegará tu sitio (en CPanel)
-    url: 'https://993718514.facturalo.co',       // tu dominio en prod
-    baseUrl: '/triggersaurus/',          // esto sirve TODO bajo /triggersaurus
+  // URL donde se desplegará tu sitio (en CPanel)
+  url: 'https://993718514.facturalo.co',      
+  baseUrl: '/docusaurus/',
   */
 
   // URL para GitHub Pages
-  url: 'https://LavenderEdit.github.io', // dominio base de tu user/org
-  baseUrl: '/inspector-web-docs/',       // nombre de tu repo GitHub
+  url: 'https://LavenderEdit.github.io',
+  baseUrl: '/inspector-web-docs/',
 
   stylesheets: [
     {
